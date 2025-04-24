@@ -2,7 +2,7 @@
 
 ## Students
 - Juan Cortes
-- Santiago
+- Santiago Arellano
 
 ## Environment and Tool Versions
 
@@ -69,8 +69,14 @@ These building blocks allow construction of logic and arithmetic purely through 
    ```lambdashell
    :load ldefs.lambda
    ```
-
-5. **Evaluate lambda expressions:**
+   
+5. **Visualize expressions:**
+   You can see all the combinators in the file by using showall:
+   ```lambdashell
+   :showall
+   ```
+   
+6. **Evaluate lambda expressions:**
    Once loaded, you can type in expressions to reduce them. Examples:
    ```lambdashell
    PRED ONE
