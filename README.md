@@ -34,16 +34,16 @@ This project was developed and tested using the following setup:
 
 These are the main combinators defined in `ldefs.lambda`:
 
-- **TRUE** – Represents the boolean value true.
-- **FALSE** – Represents the boolean value false.
+- **TRUE** – Represents the boolean value true (returns first value).
+- **FALSE** – Represents the boolean value false (returns second value).
 - **PAIR** – Constructs a pair from two values.
 - **FST** – Retrieves the first element of a pair.
 - **SND** – Retrieves the second element of a pair.
-- **ZERO** – Represents the Church numeral 0.
-- **SUCC** – Represents the successor function (adds 1).
-- **PRED** – Represents the predecessor function (subtracts 1).
-- **ISZERO** – Checks whether a Church numeral is zero.
-- **ONE, TWO, THREE, FOUR, FIVE** – Church numerals for 1 through 5.
+- **ZERO** – Represents the Barendregt’s numeral 0 (Identity combinator).
+- **SUCC** – Returns the successor of a Barendregt’s number  (adds 1).
+- **PRED** – Represents the predecessor (subtracts 1).
+- **ISZERO** – Checks whether a Barendregt’s numeral is zero.
+- **ONE, TWO, THREE, FOUR, FIVE** – Barendregt’s numerals for 1 through 5.
 
 These building blocks allow construction of logic and arithmetic purely through lambda abstraction and application.
 
