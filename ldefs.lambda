@@ -1,0 +1,17 @@
+TRUE = \x. \y. x;
+FALSE = \x. \y. y;
+
+PAIR = \a. \b. \z. z a b;
+FST = \p. p TRUE;
+SND = \p. p FALSE;
+
+ZERO = \x. x;
+SUCC = \r. PAIR FALSE r;
+PRED = \r. r FALSE;
+ISZERO = \r. r TRUE;
+
+ONE = SUCC ZERO;
+TWO = SUCC ONE;
+THREE = SUCC TWO;
+FOUR = SUCC THREE;
+FIVE = SUCC FOUR;
