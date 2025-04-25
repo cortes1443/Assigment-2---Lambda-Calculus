@@ -1,8 +1,8 @@
 # Lambda Calculus - LambdaShell
 
 ## Students
-- Juan Cortes
-- Santiago Arellano
+- Juan Diego Cortes
+- Santiago Arellano Lopez
 
 ## Environment and Tool Versions
 
